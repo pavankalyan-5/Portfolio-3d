@@ -29,7 +29,6 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
     perspective: 250rem;
-    overflow: hidden;
 
 }
 
@@ -40,6 +39,7 @@ body{
     padding: 2rem;
     animation: show-animate 2s forwards;
     perspective: 250rem;
+    
 }
 
 @keyframes show-animate {
